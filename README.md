@@ -1,2 +1,2 @@
-# Kino_bot
-.
+KEY: TOKEN
+VALUE: 8537....qV4
