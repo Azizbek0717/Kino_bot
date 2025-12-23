@@ -1,13 +1,9 @@
-import sqlite3
 import os
+import sqlite3
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
-from telegram.ext import (
-    Application, CommandHandler, ContextTypes,
-    CallbackQueryHandler, MessageHandler, filters
-)
+from telegram.ext import Application, CommandHandler, ContextTypes, CallbackQueryHandler, MessageHandler, filters
 
-# ---------- TOKEN VA ADMIN ----------
-TOKEN = os.getenv("8537929828:AAG-_7f__DV7NK_-tuBkfZybwTfj5uB7qV4")  # Render Environment Variable
+TOKEN = os.environ.get("TOKEN")
 ADMIN_ID = 6022023269
 
 # ---------- DATABASE ----------
