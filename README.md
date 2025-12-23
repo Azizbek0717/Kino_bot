@@ -1,3 +1,3 @@
+import os
 
-KEY: TOKEN
-VALUE: 8537929828:AAG-_7f__DV7NK_-tuBkfZybwTfj5uB7qV4
+TOKEN = os.getenv("TOKEN")
